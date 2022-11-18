@@ -1,0 +1,1459 @@
+2022-11-17 23:42:59.337 INFO list2head - ----------- App started -----------
+2022-11-17 23:42:59.338 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:42:59.339 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:47:41.131 INFO list2head - ----------- App started -----------
+2022-11-17 23:47:41.131 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:47:41.131 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:47:58.277 INFO list2head - ----------- App started -----------
+2022-11-17 23:47:58.278 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:47:58.278 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:49:22.357 INFO list2head - ----------- App started -----------
+2022-11-17 23:49:22.357 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:49:22.357 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:49:54.593 INFO list2head - ----------- App started -----------
+2022-11-17 23:49:54.594 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:49:54.594 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:53:02.921 INFO list2head - ----------- App started -----------
+2022-11-17 23:53:02.922 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:53:02.922 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:57:40.968 INFO list2head - ----------- App started -----------
+2022-11-17 23:57:40.968 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:57:40.968 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:58:00.798 INFO list2head - ----------- App started -----------
+2022-11-17 23:58:00.799 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:58:00.799 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:58:14.342 INFO list2head - ----------- App started -----------
+2022-11-17 23:58:14.343 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:58:14.343 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:58:35.019 INFO list2head - ----------- App started -----------
+2022-11-17 23:58:35.020 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:58:35.020 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-17 23:58:54.516 INFO list2head - ----------- App started -----------
+2022-11-17 23:58:54.517 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-17 23:58:54.517 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:00:11.597 INFO list2head - ----------- App started -----------
+2022-11-18 00:00:11.597 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:00:11.597 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:01:56.509 INFO list2head - ----------- App started -----------
+2022-11-18 00:01:56.509 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:01:56.509 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:02:41.671 INFO list2head - ----------- App started -----------
+2022-11-18 00:02:41.671 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:02:41.672 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:02:51.032 INFO list2head - ----------- App started -----------
+2022-11-18 00:02:51.032 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:02:51.033 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:04:05.219 INFO list2head - ----------- App started -----------
+2022-11-18 00:04:05.219 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:04:05.219 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:04:22.852 INFO list2head - ----------- App started -----------
+2022-11-18 00:04:22.852 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:04:22.853 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:04:35.335 INFO list2head - ----------- App started -----------
+2022-11-18 00:04:35.335 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:04:35.336 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:05:07.877 INFO list2head - ----------- App started -----------
+2022-11-18 00:05:07.878 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:05:07.878 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:05:25.774 INFO list2head - ----------- App started -----------
+2022-11-18 00:05:25.775 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:05:25.776 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:11:43.823 INFO list2head - ----------- App started -----------
+2022-11-18 00:11:43.823 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:11:43.824 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 00:11:58.791 INFO list2head - ----------- App started -----------
+2022-11-18 00:11:58.792 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 00:11:58.792 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 15:46:12.768 INFO list2head - ----------- App started -----------
+2022-11-18 15:46:12.775 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 15:46:12.776 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 15:46:52.688 INFO list2head - ----------- App started -----------
+2022-11-18 15:46:52.695 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 15:46:52.695 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 15:50:35.273 INFO list2head - ----------- App started -----------
+2022-11-18 15:50:35.273 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 15:52:23.701 INFO list2head - ----------- App started -----------
+2022-11-18 15:52:23.701 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 15:52:23.702 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 15:54:15.300 INFO list2head - ----------- App started -----------
+2022-11-18 15:54:15.300 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 15:54:15.301 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 15:54:27.767 INFO list2head - ----------- App started -----------
+2022-11-18 15:54:27.767 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 15:54:27.767 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:00:32.211 INFO list2head - ----------- App started -----------
+2022-11-18 16:00:32.212 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:00:32.212 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:01:28.934 INFO list2head - ----------- App started -----------
+2022-11-18 16:01:28.935 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:01:28.935 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:17:27.578 INFO list2head - ----------- App started -----------
+2022-11-18 16:17:27.578 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:17:27.578 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:17:45.939 INFO list2head - ----------- App started -----------
+2022-11-18 16:17:45.939 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:17:45.940 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:20:37.692 INFO list2head - ----------- App started -----------
+2022-11-18 16:20:37.693 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:20:37.693 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:21:06.136 INFO list2head - ----------- App started -----------
+2022-11-18 16:21:06.137 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:21:06.137 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:21:29.403 INFO list2head - ----------- App started -----------
+2022-11-18 16:21:29.404 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:21:29.404 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:21:36.331 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:21:36.514 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:21:38.891 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:21:40.059 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:21:40.212 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:21:41.775 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:22:28.786 INFO list2head - ----------- App started -----------
+2022-11-18 16:22:28.786 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:22:28.787 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:23:24.879 INFO list2head - ----------- App started -----------
+2022-11-18 16:23:24.879 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:23:24.880 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:23:54.283 INFO list2head - ----------- App started -----------
+2022-11-18 16:23:54.284 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:23:54.284 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:26:53.816 INFO list2head - ----------- App started -----------
+2022-11-18 16:26:53.816 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:26:53.816 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:27:59.113 INFO list2head - ----------- App started -----------
+2022-11-18 16:27:59.113 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:27:59.114 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:28:27.917 INFO list2head - ----------- App started -----------
+2022-11-18 16:28:27.918 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:28:27.918 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:28:52.997 INFO list2head - ----------- App started -----------
+2022-11-18 16:28:52.997 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:28:52.997 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:29:03.701 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:33:23.994 INFO list2head - ----------- App started -----------
+2022-11-18 16:33:23.995 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        }
+
+    ]
+}
+2022-11-18 16:33:23.995 INFO list2head - Already existing /data folder used for storing fetched images
+2022-11-18 16:34:54.831 INFO list2head - ----------- App started -----------
+2022-11-18 16:34:54.838 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        },
+        {
+            "text": "section 2",
+            "comment": "------------------"
+        },
+        {
+            "order": 5,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        }
+
+    ]
+}
+2022-11-18 16:35:13.453 INFO list2head - ----------- App started -----------
+2022-11-18 16:35:13.458 INFO list2head::data_model - Checklist file read successfully: {
+    "name": "test",
+    "checklist_steps": [
+        {
+            "order": 1,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        },
+        {
+            "order": 2,
+            "text": "test text 2",
+            "comment": "test comment 2"
+        },
+        {
+            "order": 3,
+            "text": "test text 3",
+            "comment": "test comment 3"
+        },
+        {
+            "order": 4,
+            "text": "test text 4",
+            "comment": "test comment 4"
+        },
+        {
+            "order": 5,
+            "text": "section 2",
+            "comment": "------------------"
+        },
+        {
+            "order": 6,
+            "text": "test text 1",
+            "comment": "test comment 1"
+        }
+
+    ]
+}
+2022-11-18 16:35:13.458 INFO list2head - Already existing /data folder used for storing fetched images
