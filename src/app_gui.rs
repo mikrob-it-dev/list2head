@@ -122,18 +122,19 @@ fn ui_add_step_list(ui: &mut Ui, my_app: &mut MyApp, ctx: &Context) {
                                 });
                                 row.col(|ui| {
                                     ui.vertical(|ui| {
-                                        ui.label(step.text.to_owned());
+                                        ui.label(format!("[{}]   {}", step.section.to_owned(), step.text.to_owned()));
                                         ui.label(step.comment.to_owned());
                                     });
                                 });
 
                                 row.col(|ui| {
-
                                     if step.test_result.eq("OK") {
-                                        ui.visuals_mut().override_text_color = Some(egui::Color32::DARK_GREEN);
+                                        ui.visuals_mut().override_text_color =
+                                            Some(egui::Color32::DARK_GREEN);
                                     }
                                     if step.test_result.eq("NOK") {
-                                        ui.visuals_mut().override_text_color = Some(egui::Color32::DARK_RED);
+                                        ui.visuals_mut().override_text_color =
+                                            Some(egui::Color32::DARK_RED);
                                     }
                                     ui.label(&step.test_result);
                                 });
