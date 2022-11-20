@@ -131,7 +131,7 @@ fn ui_add_step_list(ui: &mut Ui, my_app: &mut MyApp, ctx: &Context) {
                                 row.col(|ui| {
                                     ui.vertical(|ui| {
                                         ui.label(section.name.to_owned());
-                                        // ui.label(step.comment.to_owned()); TODO - add section description
+                                        ui.label(section.section_description); 
                                     });
                                 });
                             });

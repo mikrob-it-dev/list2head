@@ -34,11 +34,22 @@ impl checklist {
             Err(_) => log::error!("Checklist file read failed"),
         }
 
+        let mut section_order = 1;
+
         let mut checklist_deserialized: checklist = serde_json::from_str(&buffer).unwrap();
         for section in &mut checklist_deserialized.sections {
+
+            let mut step_order = 1;
+
             for mut step in &mut section.checklist_steps {
                 step.test_result = String::from("N/A");
+                step.order = step_order;
+
+                step_order += 1;
             }
+
+            section.order = section_order;
+            section_order += 1;
         }
 
         checklist_deserialized
@@ -47,27 +58,19 @@ impl checklist {
 
 #[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct checklist_section {
+    #[serde(skip_deserializing)]
     pub order: usize,
     pub name: String,
+    pub section_description: String,
     pub checklist_steps: Vec<checklist_step>,
 }
 
 #[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct checklist_step {
+    #[serde(skip_deserializing)]
     pub order: u32,
     pub text: String,
     pub comment: String,
     #[serde(skip_deserializing)]
     pub test_result: String,
-}
-
-impl checklist_step {
-    pub fn test_step() -> Self {
-        checklist_step {
-            order: 1,
-            text: String::from("test text"),
-            comment: String::from("test comment"),
-            test_result: String::from("N/A"),
-        }
-    }
 }
