@@ -8,7 +8,7 @@ use crate::app_constants::AppConstants;
 
 pub struct checklist {
     pub name: String,
-    pub checklist_steps: Vec<checklist_step>,
+    pub sections: Vec<checklist_section>,
 }
 
 impl checklist {
@@ -35,8 +35,10 @@ impl checklist {
         }
 
         let mut checklist_deserialized: checklist = serde_json::from_str(&buffer).unwrap();
-        for mut step in &mut checklist_deserialized.checklist_steps {
-            step.test_result = String::from("N/A");
+        for section in &mut checklist_deserialized.sections {
+            for mut step in &mut section.checklist_steps {
+                step.test_result = String::from("N/A");
+            }
         }
 
         checklist_deserialized
@@ -44,11 +46,17 @@ impl checklist {
 }
 
 #[derive(Clone, Serialize, Deserialize, Debug)]
+pub struct checklist_section {
+    pub order: usize,
+    pub name: String,
+    pub checklist_steps: Vec<checklist_step>,
+}
+
+#[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct checklist_step {
     pub order: u32,
     pub text: String,
     pub comment: String,
-    pub section: String,
     #[serde(skip_deserializing)]
     pub test_result: String,
 }
@@ -59,7 +67,6 @@ impl checklist_step {
             order: 1,
             text: String::from("test text"),
             comment: String::from("test comment"),
-            section: String::from("test section"),
             test_result: String::from("N/A"),
         }
     }

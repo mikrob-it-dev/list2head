@@ -1,4 +1,4 @@
-use crate::data_model::{self, checklist, checklist_step};
+use crate::data_model::{self, checklist, checklist_step, checklist_section};
 use crate::{app_config::AppConfig, app_constants::AppConstants, log_utils};
 use egui::FontFamily::Proportional;
 use egui::{Align2, Button, Context, FontData, FontId, Label, TextStyle, Ui, Vec2};
@@ -20,7 +20,8 @@ pub enum Enum {
 pub struct MyApp {
     pub is_license_info_shown: bool,
     pub checklist: checklist,
-    pub checklist_current_position: u32,
+    pub checklist_current_section: usize,
+    pub checklist_current_step: usize,
 }
 
 impl MyApp {
@@ -28,7 +29,8 @@ impl MyApp {
         Self {
             is_license_info_shown: false,
             checklist: data_model::checklist::load_checklist(),
-            checklist_current_position: 1,
+            checklist_current_section: 1,
+            checklist_current_step: 1,
         }
     }
 }
@@ -113,32 +115,61 @@ fn ui_add_step_list(ui: &mut Ui, my_app: &mut MyApp, ctx: &Context) {
                     //     });
                     // }
 
-                    for step in &my_app.checklist.checklist_steps {
-                        if step.order <= my_app.checklist_current_position {
-                            let row_height = 45.0;
+                    let row_height = 45.0;
+
+                    for section in &my_app.checklist.sections {
+
+                        if my_app.checklist_current_section >= section.order {
                             body.row(row_height, |mut row| {
                                 row.col(|ui| {
-                                    ui.label(step.order.to_string());
+                                    ui.label(format!(
+                                        "{}-{}",
+                                        section.order.to_string(),
+                                        0,
+                                    ));
                                 });
                                 row.col(|ui| {
                                     ui.vertical(|ui| {
-                                        ui.label(format!("[{}]   {}", step.section.to_owned(), step.text.to_owned()));
-                                        ui.label(step.comment.to_owned());
+                                        ui.label(section.name.to_owned());
+                                        // ui.label(step.comment.to_owned()); TODO - add section description
                                     });
                                 });
-
-                                row.col(|ui| {
-                                    if step.test_result.eq("OK") {
-                                        ui.visuals_mut().override_text_color =
-                                            Some(egui::Color32::DARK_GREEN);
-                                    }
-                                    if step.test_result.eq("NOK") {
-                                        ui.visuals_mut().override_text_color =
-                                            Some(egui::Color32::DARK_RED);
-                                    }
-                                    ui.label(&step.test_result);
-                                });
                             });
+                        };
+
+                        for step in &section.checklist_steps {
+
+                            if section.order < my_app.checklist_current_section.try_into().unwrap()
+                                || (section.order == my_app.checklist_current_section  && step.order <= my_app.checklist_current_step.try_into().unwrap())
+                            {
+                                body.row(row_height, |mut row| {
+                                    row.col(|ui| {
+                                        ui.label(format!(
+                                            "{}-{}",
+                                            section.order.to_string(),
+                                            step.order.to_string(),
+                                        ));
+                                    });
+                                    row.col(|ui| {
+                                        ui.vertical(|ui| {
+                                            ui.label(step.text.to_owned());
+                                            ui.label(step.comment.to_owned());
+                                        });
+                                    });
+
+                                    row.col(|ui| {
+                                        if step.test_result.eq("OK") {
+                                            ui.visuals_mut().override_text_color =
+                                                Some(egui::Color32::DARK_GREEN);
+                                        }
+                                        if step.test_result.eq("NOK") {
+                                            ui.visuals_mut().override_text_color =
+                                                Some(egui::Color32::DARK_RED);
+                                        }
+                                        ui.label(&step.test_result);
+                                    });
+                                });
+                            }
                         }
                     }
                 });
@@ -154,7 +185,12 @@ fn ui_add_controls(ui: &mut Ui, my_app: &mut MyApp, _frame: &mut eframe::Frame, 
             ui.horizontal(|ui| {
                 let advance_step_button = ui.button("Step ahead");
                 if advance_step_button.clicked() {
-                    my_app.checklist_current_position += 1;
+                    my_app.checklist_current_step += 1;
+
+                    if my_app.checklist_current_step == my_app.checklist.sections[my_app.checklist_current_section-1].checklist_steps.iter().count() + 1 {
+                        my_app.checklist_current_step = 1;
+                        my_app.checklist_current_section += 1;
+                    };
                 }
 
                 let start_over_button = ui.button("Start over");
