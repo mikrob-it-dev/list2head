@@ -1,0 +1,362 @@
+{
+    "name": "Cessna C172M - Emergency Checklists",
+    "checklist_description" : "C172 Emergency Procedures, Memory Items\n\n - A demostration checklist, do NOT use for flight training\n - Use as a template for your own checklists\n - The checklist is WIP, many critical procedures to be added",
+    "sections": [
+        {
+            "name": "Engine Failure During Take Off Run",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Throttle - IDLE",
+                    "comment": ""
+                },
+                {
+                    "text": "Brakes - APPLY A/R TO STOP",
+                    "comment": ""
+                },
+                {
+                    "text": "Wing Flaps - RETRACT",
+                    "comment": ""
+                },
+                {
+                    "text": "Mixture - IDLE CUT OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Ignition Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Master Switch - OFF",
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "name": "Engine Failure Immediately After Take Off",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Airspeed - 70 KIAS (FLAP UP) / 65 KIAS (FLAP DOWN)",
+                    "comment": ""
+                },
+                {
+                    "text": "Mixture - IDLE CUT OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Fuel Selector Valve - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Ignition Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Wing Flaps - AS REQUIRED (30° recommended)",
+                    "comment": ""
+                },
+                {
+                    "text": "Master Switch - OFF",
+                    "comment": ""
+                }
+            ]
+        },        
+        {
+            "name": "Engine Failure During Flight",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Airspeed - 75 KIAS",
+                    "comment": ""
+                },
+                {
+                    "text": "Carburettor Heat - ON",
+                    "comment": ""
+                },
+                {
+                    "text": "Fuel Selector Valve - BOTH",
+                    "comment": ""
+                },
+                {
+                    "text": "Mixture - RICH",
+                    "comment": ""
+                },
+                {
+                    "text": "Ignition Switch - BOTH (OR START IF PROP IS STOPPED)",
+                    "comment": ""
+                },
+                {
+                    "text": "Primer - IN & LOCKED",
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "name": "Emergency Landing Without Engine Power",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Airspeed - 70 KIAS (FLAP UP) / 65 KIAS (FLAP DOWN)",
+                    "comment": ""
+                },
+                {
+                    "text": "Mixture - IDLE CUT-OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Fuel Shutoff Valve - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Ignition Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Wing Flaps - AS REQUIRED (30° recommended)",
+                    "comment": ""
+                },
+                {
+                    "text": "Master Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Doors - UNLATCH PRIOR TO TOUCHDOWN",
+                    "comment": ""
+                },
+                {
+                    "text": "Touchdown - SLIGHTLY TAIL LOW",
+                    "comment": ""
+                },
+                {
+                    "text": "Brakes - APPLY HEAVILY",
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "name": "Precautionary Landing With Engine Power",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Airspeed - 65 KIAS (FLAP DOWN)",
+                    "comment": ""
+                },
+                {
+                    "text": "Wing Flaps - SET 10°",
+                    "comment": ""
+                },
+                {
+                    "text": "Selected Field - FLY OVER",
+                    "comment": "Take note of the terrain, obstructions and heading of landing direction"
+                },
+                {
+                    "text": "Radio, Avionics & Electrical Switches - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Wing Flaps - 40° (on final approach)",
+                    "comment": ""
+                },
+                {
+                    "text": "Airspeed - 65 KIAS",
+                    "comment": ""
+                },
+                {
+                    "text": "Master Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Doors - UNLATCH PRIOR TO TOUCHDOWN",
+                    "comment": ""
+                },
+                {
+                    "text": "Touchdown - SLIGHTLY TAIL LOW",
+                    "comment": ""
+                },
+                {
+                    "text": "Ignition Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Brakes - APPLY HEAVILY",
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "name": "Engine Fire During Start On Ground",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Cranking - CONTINUE",
+                    "comment": "Continue cranking to get a start which would suck the flames and\naccumulated fuel through the carburettor and into the engine"
+                },
+                {
+                    "text": "(Engine Started) Engine - 1700 RPM for a few minutes",
+                    "comment": ""
+                },
+                {
+                    "text": "(Engine Started) Power - SHUTDOWN and inspect for damage",
+                    "comment": "Continue further with steps in case the engine did not start"
+                },
+                {
+                    "text": "Throttle - FULL OPEN",
+                    "comment": ""
+                },
+                {
+                    "text": "Mixture - IDLE CUT OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Cranking - CONTINUE in an effort to obtain a start",
+                    "comment": ""
+                },
+                {
+                    "text": "Fire Extinguisher - OBTAIN",
+                    "comment": ""
+                },
+                {
+                    "text": "Engine - SECURE",
+                    "comment": ""
+                },
+                {
+                    "text": "Master Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Ignition Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Fuel Shut Off Valve - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Fire - EXTINGUISH using fire extinguishers, wool blanket, or dirt",
+                    "comment": ""
+                },
+                {
+                    "text": "Fire Damage - INSPECT",
+                    "comment": "Repair damage or replace damaged components or wiring before\nconducting another flight"
+                }
+            ]
+        },
+        {
+            "name": "Engine Fire In Flight",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Mixture - IDLE CUT-OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Fuel Shutoff Valve - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Master Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Cabin Heat and Air - OFF (except overhead vents)",
+                    "comment": ""
+                },
+                {
+                    "text": "Airspeed - 105 KIAS",
+                    "comment": "If fire is not extinguished, increase glide speed to find an airspeed which\n will provide an incombustible mixture."
+                },
+                {
+                    "text": "Forced Landing - EXECUTE",
+                    "comment": "As described in Emergency Landing Without Engine Power"
+                }
+            ]
+        },
+        {
+            "name": "Electrical Fire In Flight",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Master Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Avionics Power Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "All Other Switches - OFF (except ignition switch)",
+                    "comment": ""
+                },
+                {
+                    "text": "Vents / Cabin Air / Heat - CLOSED",
+                    "comment": ""
+                },
+                {
+                    "text": "Fire Extinguisher - ACTIVATE",
+                    "comment": "After discharging an extinguisher within a closed cabin, ventilate cabin"
+                },
+                {
+                    "text": "(Fire out and electrical power necessary for continuation)\nMaster Switch - ON",
+                    "comment": ""
+                },
+                {
+                    "text": "Circuit Breakers - CHECK for faulty circuit, do not reset",
+                    "comment": ""
+                },
+                {
+                    "text": "Radio/Electrical Switches - ON one at a time, with delay after each\nuntil short circuit is localised",
+                    "comment": ""
+                },
+                {
+                    "text": "Vents / Cabin Air / Heat - OPEN when it is ascertained that fire\nis completely extinguished",
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "name": "Cabin Fire",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Master Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Vents / Cabin Air / Heat - CLOSED (to avoid drafts)",
+                    "comment": ""
+                },
+                {
+                    "text": "Fire Extinguisher - ACTIVATE",
+                    "comment": "After discharging an extinguisher within a closed cabin, ventilate the cabin"
+                },
+                {
+                    "text": "Land the aeroplane as soon as possible to inspect for damage",
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "name": "Wing Fire",
+            "section_description" : "",
+            "checklist_steps": [
+                {
+                    "text": "Navigational Light Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Strobe Light Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Pitot Heat Switch - OFF",
+                    "comment": ""
+                },
+                {
+                    "text": "Perform SIDESLIP",
+                    "comment": "Keep the flames away from the fuel tank and cabin, and land\nas soon as possible using flaps only as required for final\napproach and touchdown."
+                }
+            ]
+        }
+    ]
+}

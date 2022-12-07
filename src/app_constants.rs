@@ -9,8 +9,10 @@ impl AppConstants {
     pub const APP_DEVELOPER_WEBSITE: &str = "http://mikrob.it";
 
     // file locations
-    pub const CONFIG_FILE_LOCATION: &str = "checklist.json";
+    pub const CHECKLIST_ARCHIVE_LOCATION: &str = "checklists/";
     pub const LOG_FILE_LOCATION: &str = "log/";
+
+    pub const FONT_SIZE: f32 = 20.0;
 
     // TODO: format better
     pub const LICENSE_TEXT: &str =

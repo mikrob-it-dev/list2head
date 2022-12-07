@@ -1,0 +1,42 @@
+{
+    "name": "Sample Checklist Template",
+    "checklist_description" : "Checklist 1 Test description\nMultiline Supported\nMultiline Supported\nMultiline Supported",
+    "sections": [
+        {
+            "name": "Test section 1",
+            "section_description" : "section 1 Test description",
+            "checklist_steps": [
+                {
+                    "text": "Test step 1 name",
+                    "comment": "Test step 1 comment"
+                },
+                {
+                    "text": "Test step 2 name\nMultiline name supported\nMultiline name supported",
+                    "comment": "Test step 2 comment\nMultiline comment supported\nMultiline comment supported"
+                },
+                {
+                    "text": "Test step 3 - Blank comments are allowed",
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "name": "Test section 2",
+            "section_description" : "section 2 Test description",
+            "checklist_steps": [
+                {
+                    "text": "Test step 1 name",
+                    "comment": "Test step 1 comment"
+                },
+                {
+                    "text": "Test step 2 name\nMultiline name supported\nMultiline name supported",
+                    "comment": "Test step 2 comment\nMultiline comment supported\nMultiline comment supported"
+                },
+                {
+                    "text": "Test step 3 - Blank comments are allowed",
+                    "comment": ""
+                }
+            ]
+        }
+    ]
+}
