@@ -6,7 +6,7 @@ The application includes sample emergency and standard checklists for C-172 and 
 
 **Build & run**
 
-If you wish to test out the app straight away, get it from the [app's page](https://mikrob.it/list2head_app_detail.html) on [mikrob.it](https://mikrob.it).
+If you wish to test out the app straight away, get it from the [app's page](https://www.mikrob.it/list2head_app_detail.html) on [mikrob.it](https://www.mikrob.it).
 
 Alternatively:
 * Clone & build
