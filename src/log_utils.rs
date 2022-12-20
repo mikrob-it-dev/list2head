@@ -1,3 +1,5 @@
+use std::env::current_dir;
+
 use log4rs::{
     append::file::FileAppender,
     config::{Appender, Root},
@@ -5,7 +7,7 @@ use log4rs::{
     Config,
 };
 
-use crate::{app_constants::AppConstants, windows_os_utils::build_absolute_path};
+use crate::app_constants::AppConstants;
 
 pub fn start_logging() {
     // set up logging
@@ -29,10 +31,15 @@ pub fn start_logging() {
 }
 
 pub fn open_logs_externally() {
+
+    // supports only windows
+
     match std::process::Command::new("notepad")
-        .arg(build_absolute_path(
-            &(AppConstants::LOG_FILE_LOCATION.to_string() + AppConstants::APP_NAME + ".log"),
-        ))
+        .arg(
+            current_dir().unwrap().join(
+                &(AppConstants::LOG_FILE_LOCATION.to_string() + AppConstants::APP_NAME + ".log"),
+            ),
+        )
         .output()
     {
         Ok(_) => {}

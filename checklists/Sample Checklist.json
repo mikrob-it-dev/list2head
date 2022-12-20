@@ -4,7 +4,7 @@
     "sections": [
         {
             "name": "Test section 1",
-            "section_description" : "section 1 Test description",
+            "section_description" : "section 1 Test description\nmultiline\nmultiline\nmultiline",
             "checklist_steps": [
                 {
                     "text": "Test step 1 name",

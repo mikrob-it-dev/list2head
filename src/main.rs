@@ -2,17 +2,15 @@
 
 use crate::{data_model::load_checklists, log_utils::start_logging};
 use app_constants::AppConstants;
-use app_gui::MyApp;
-use eframe::CreationContext;
+use app_model::EguiApp;
 use egui::Vec2;
-use std::{fs::create_dir, io::ErrorKind, thread, time};
+use std::{fs::create_dir, io::ErrorKind};
 
-mod app_config;
 mod app_constants;
 mod app_gui;
+mod app_model;
 mod data_model;
 mod log_utils;
-mod windows_os_utils;
 
 fn main() {
     start_logging();
@@ -21,20 +19,7 @@ fn main() {
 
     load_checklists();
 
-    let my_app = MyApp::default();
-    let mut secs_since_last_update = 0;
-
-    match create_dir("data") {
-        Ok(_) => {}
-        Err(e) => match e.kind() {
-            ErrorKind::AlreadyExists => {
-                log::info!("Already existing /data folder used for storing fetched images");
-            }
-            _ => {
-                log::error!("Could not create /data file");
-            }
-        },
-    };
+    let my_app = EguiApp::default();
 
     let icon = image::open("resources/icon.png")
         .expect("Failed to open icon path")

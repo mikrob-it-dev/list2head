@@ -1,0 +1,307 @@
+{
+    "name": "Tecnam P2006T - Standard Checklists",
+    "checklist_description" : "P2006T Standard Procedures\n\n - A demostration checklist, do NOT use for flight training\n - Use as a template for your own checklists\n - The checklist is WIP, many critical procedures to be added",
+    "sections": [
+        {
+            "name": "Preflight Inspection - General",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "AIRPLANE CONDITION - Airworthy"},
+                {"text": "CREW CONDITION - OK"},
+                {"text": "CREW DOCUMENTS + A/C - On Board"},
+                {"text": "WEATHER - Suitable"},
+                {"text": "BAGGAGE - Weighed+Stowage"},
+                {"text": "FUEL+BALANCE - Calculated, Within limits"},
+                {"text": "FLIGHT PLAN - Planned+Filed +Accepted"},
+                {"text": "MAPS AND NAV EQUIP - On Board"},
+                {"text": "PERFORMANCE + RANGE - Calculated+Safe"},
+                {"text": "AUXILIARY EQUIPMENT - Headsets, Mooring devices, etc."}
+            ]
+        },
+        {
+            "name": "Preflight Inspection - Pilot Door and Cabin",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "DOOR - Condition check"},
+                {"text": "LANDING GEAR CONTROL KNOB - Check DOWN"},
+                {"text": "AVIONICS - OFF"},
+                {"text": "CIRCUIT BREAKERS - Retracted"},
+                {"text": "MASTER SWITCH - ON"},
+                {"text": "RH + LH CROSS BUS - ON"},
+                {"text": "STALL WARNING SYSTEM - Lift, check horn"},
+                {"text": "LANDING GEAR LIGHTS - 3 green lights"},
+                {"text": "FUEL GAUGE - Capacity check"},
+                {"text": "LIGHTS + PITOT HEAT - Check"},
+                {"text": "MAGNETOS - OFF"},
+                {"text": "FLAPS - Verify extension, keep extended"},
+                {"text": "RH + LH CROSS BUS - OFF"},
+                {"text": "MASTER SWITCH - OFF"},
+                {"text": "EMERGENCY EQUIP - Check as needed"}
+            ]
+        },
+        {
+            "name": "Outside inspection",
+            "section_description" : "Airplane walkaround",
+            "checklist_steps": [
+                {"text": "Walkaround the A/C","comment": "TODO"}
+            ]
+        },
+        {
+            "name": "After entering cabin",
+            "checklist_steps": [
+                {"text": "MAPS / EQUIP - On board"},
+                {"text": "SEAT+SEAT BELTS - Set + secure"},
+                {"text": "DOOR - Close","comment": "If even only one engine works, it is PROHBITED to open\ndoors, extraordinarily in emergency,see POH!"},
+                {"text": "PAX - Instructed"},
+                {"text": "FLIGHT + GARMIN MANUAL - Within reach"},
+                {"text": "PARKING BRAKE - Engaged"},
+                {"text": "LANDING GEAR LEVER - Check DOWN"},
+                {"text": "MASTER SWITCH - ON"},
+                {"text": "FUEL GUAGE - Capacity check"},
+                {"text": "RH SHUTTLE VALVES - RIGHT"},
+                {"text": "LH SHUTTLE VALVES - LEFT"},
+                {"text": "LANDING GEAR LIGHTS - TEST"},
+                {"text": "FIRE DETECTOR - TEST"},
+                {"text": "THROTTLE LEVER - Free, set friction"},
+                {"text": "CONTROLS - Free"},
+                {"text": "ALTERNATE STATIC PORT - Check closing"},
+                {"text": "CABIN HEAT - OFF"},
+                {"text": "FLAPS - RETRACT"}
+            ]
+        },
+        {
+            "name": "Engine Starting",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "CIRCUIT BREAKER - RETRACT"},
+                {"text": "PROPELLER - Full forward (min angle)"},
+                {"text": "THROTTLES - IDLE"},
+                {"text": "CABRURETTOR HEAT - OFF"},
+                {"text": "AVIONICS SWITCHES - OFF"},
+                {"text": "ELECTRIC SWITCHES - OFF"},
+                {"text": "MASTER SWITCH - Check ON"},
+                {"text": "STROBE LIGHT - ON"},
+                {"text": "CHOKE - AS NEEDED" ,"comment": "Procedure for engine 1 start begins here"},
+                {"text": "FUEL PUMP - ON"},
+                {"text": "PROPELLER ZONE - CHECK free"},
+                {"text": "IGNITIONS SWITCHES - Starting engine ON"},
+                {"text": "START PUSHBUTTON - Push (max 5 sec)"},
+                {"text": "THROTTLE - 1200 RPM"},
+                {"text": "OIL PRESSURE - CHECK to 10 sec min 0,15 bar"},
+                {"text": "FIELD - ON"},
+                {"text": "CHOKE - Gradually OFF (RPM 1200 keep by throttle)"},
+                {"text": "CROSS BUS - ON"},
+                {"text": "AMPERMETER - CHARGE"},
+                {"text": "VOLTMETER - check"},
+                {"text": "FUEL PUMP - OFF"},
+                {"text": "Repeat engine start procedure for engine 2"},
+                {"text": "AVIONICS - ON"},
+                {"text": "NAV LIGHTS - AS NEEDED"}
+            ]
+        },        
+        {
+            "name": "Before taxiing",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "CLOCK - Set"},
+                {"text": "XPDR Set code"},
+                {"text": "ATIS As needed"},
+                {"text": "APPROVAL - OK"},
+                {"text": "FREQUENCY / HEADING - Set"},
+                {"text": "ALTIMETERS - Set QNH"},
+                {"text": "GYRO / FLIGHT INSTRUMENTS - Check + set"},
+                {"text": "RH SHUTTLE VALVE - LEFT, check fuel pressure (X-FEED)"},
+                {"text": "LH SHUTTLE VALVE - RIGHT, check fuel pressure (X-FEED)"},
+                {"text": "TAXI LIGHTS - ON"},
+                {"text": "TAXI AREA - Free"},
+                {"text": "PARKING BRAKE - Release"},
+                {"text": "BRAKES - Check operation during taxiing"}
+            ]
+        },        
+        {
+            "name": "Taxiing",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "MAG COMPASS - Full of liquid, free moving"},
+                {"text": "AIRSPEED INDICATOR - indicates 0"},
+                {"text": "TURN INDICATOR - indicates turning, bank free"},
+                {"text": "GYRO - Indicates turning"},
+                {"text": "VARIOMETER - indicates 0"}
+            ]
+        },        
+        {
+            "name": "Holding Point",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "PARKING BRAKE - Engage"},
+                {"text": "THROTTLES - 1000-1200 RPM"},
+                {"text": "SEAT BELTS + SEATS - Locked + Secured"},
+                {"text": "CONTROLS - Free"},
+                {"text": "RH SHUTTLE VALVE - RIGHT"},
+                {"text": "LH SHUTTLE VALVE - LEFT"},
+                {"text": "TRIMs - Electric ON / Set for take off"},
+                {"text": "CHOKES - OFF"},
+                {"text": "ENIGINE INSTRUMENTS - Within green arc"},
+                {"text": "FIRE DETECT SYSTEM - Button TEST"},
+                {"text": "THROTTLE - 1650 RPM", "comment": "Engine run-up starts here"},
+                {"text": "PROPELLER LEVER - Maximum to minimum travel for 3x, (check"},
+                {"text": "MAP increasing, RPM decreasing, oil pressure decreasing)"},
+                {"text": "MAGNETOS CHECK - Decrease max 130 RPM, (diffrerence"},
+                {"text": "max50 RPM)"},
+                {"text": "CARBURETTOR HEAT - ON,verify decrease RPM, OFF"},
+                {"text": "ENGINE INSTRUMENTS - Within green arc"},
+                {"text": "AMPERMETER - Check charging"},
+                {"text": "CIRCUIT BREAKERS - Check retraction"},
+                {"text": "THROTTLES - 1000 RPM"},
+                {"text": "FLAPS - T/O"},
+                {"text": "FUEL PUMPS - Both ON"},
+                {"text": "AVIONICS / MAPS - Ready, set for take off"},
+                {"text": "FLIGHT INSTRUMENTS - As required"},
+                {"text": "APILOT MASTER - As needed"},
+                {"text": "A/P TRIM MASTER SWITCH - ON"},
+                {"text": "GEAR TRANS - Button, TEST bulbs"},
+                {"text": "INT / EXT LIGHTS - Set"},
+                {"text": "FUEL SELECTORS - LH/LH, RH/RH + CAPACITY", "comment": "Before lineup check + prep"},
+                {"text": "FUEL PUMPS Check ON"},
+                {"text": "MAGNETOS - ON"},
+                {"text": "TRIMS - Set for take off"},
+                {"text": "PROPELLER - Min angle"},
+                {"text": "CARB Heat - OFF"},
+                {"text": "CHOKES - OFF"},
+                {"text": "ENGINE INSTRUMENTS - Check all in green arc"},
+                {"text": "STROBE LIGHTS - ON"},
+                {"text": "TAKE OFF TIME - RECORD"},
+                {"text": "STOPWATCH - START"},
+                {"text": "XPDR - ON"},
+                {"text": "RWY HEADING - CHECK"},
+                {"text": "PITOT HEAT - As needed"},
+                {"text": "LDG LIGHT - ON"}
+            ]
+        },        
+        {
+            "name": "After take-off",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "ROTATE - 65 KIAS"},
+                {"text": "SPEED - 85 KIAS"},
+                {"text": "POSITIVE RATE - Landing Gear - Brake + UP"},
+                {"text": "THROTTLE - 27 inHg"},
+                {"text": "PROPELLER - 2250 RPM"},
+                {"text": "FLAPS - 0° (in 200 feets AGL VFR)"}
+            ]
+        },        
+        {
+            "name": "Cruise Climb",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "SPEED - 90-100 KIAS"},
+                {"text": "THROTTLE - Full"},
+                {"text": "PROPELLER - 2250 RPM"},
+                {"text": "UNDERCARRIAGE - Retract (red light OFF, 15 sec)"},
+                {"text": "POWER - Set"},
+                {"text": "SWITCHES - OFF (FUEL PUMPS - OFF, LANDING LIGHT – OFF)"}
+            ]
+        },        
+        {
+            "name": "Level Flight",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "POWER - Set according to performance chart"},
+                {"text": "FUEL PUMPS - OFF"},
+                {"text": "CARBURETTOR HEAT - As needed"}
+            ]
+        },        
+        {
+            "name": "Descending",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "POWER - As needed"},
+                {"text": "CARBURETTOT HEAT - As needed"}
+            ]
+        },        
+        {
+            "name": "Before Landing",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "FUEL SELECTORS - LH/LH, RH/RH ON"},
+                {"text": "ENGINE INSTRUMENTS - Check"},
+                {"text": "A/P - OFF"},
+                {"text": "BRAKES - TEST"},
+                {"text": "SEAT BELTS - Check fastening"},
+                {"text": "THROTTLE - Reduce power 15-20 MP", "comment": "Continue before 3rd turn"},
+                {"text": "FLAPS - T/O (below 119 KIAS)"},
+                {"text": "LANDING GEAR - Extend below 122 KIAS (15 sec + check)"},
+                {"text": "SPEED - 85-90 KIAS"}
+            ]
+        },        
+        {
+            "name": "Before Landing",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "THROTTLE - 15-20 MP, as required"},
+                {"text": "FLAPS - T/O check"},
+                {"text": "SPEED - 85-90 KIAS"},
+                {"text": "GAS - ON", "comment": "GUMPS check starts here"},
+                {"text": "UNDERCARRIAGE - extended (3 green)"},
+                {"text": "(MIXTURES)", "comment": "Does not apply on P2006T"},
+                {"text": "PROPELLERS - min RPM (full forward)"},
+                {"text": "SWITCHES - ON FUEL PUMPS – ON, LANDING LIGHT - ON"}
+            ]
+        },        
+        {
+            "name": "On Final",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "FLAPS - T/O - FULL (FULL for short RWY)"},
+                {"text": "SPEED - 85 KIAS (70 - 75 short RWY)"},
+                {"text": "RWY - Check free"},
+                {"text": "TWR - Call"}
+            ]
+        },              
+        {
+            "name": "Go Around",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "THROTTLE - Full"},
+                {"text": "SPEED - Over 75-80 KIAS transfer to climb"},
+                {"text": "FLAPS - T/O"},
+                {"text": "LANDING GEAR - UP"},
+                {"text": "CARB HEAT - Check OFF"},
+                {"text": "FUEL PUMPS - Check ON"},
+                {"text": "FLAPS - Slowly UP"},
+                {"text": "CRUISE CLIMB - Transfer"}
+            ]
+        },        
+        {
+            "name": "After RWY vacation",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "THROTTLE - 1000-1200 RPM"},
+                {"text": "PITOT HEAT - OFF"},
+                {"text": "LDG LIGHTS - OFF"},
+                {"text": "FUEL PUMPS - OFF"},
+                {"text": "FLAPS - Retract"},
+                {"text": "XPDR - Check GND"}
+            ]
+        },        
+        {
+            "name": "Engine Shut Down",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "PARKING BRAKE - Engaged"},
+                {"text": "THROTTLE - 1200 RPM"},
+                {"text": "Allow for cooling down 1 minute"},
+                {"text": "AVIONICS LH + RH - OFF"},
+                {"text": "THROTTLE - Min RPM"},
+                {"text": "MAGNETOS - Gradually OFF"},
+                {"text": "STROBE LIGHTS - OFF"},
+                {"text": "MASTER SWITCH - OFF"},
+                {"text": "FIELD RH+LH - OFF"},
+                {"text": "CROSS BUS RH+LH - OFF"},
+                {"text": "PARKING BRAKE - Secure aircraft, release"},
+                {"text": "DOOR Safety lock down, then open"},
+                {"text": "FPL - Cancel"}
+            ]
+        }
+    ]
+}

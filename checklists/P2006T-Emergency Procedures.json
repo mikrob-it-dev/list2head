@@ -1,0 +1,134 @@
+{
+    "name": "Tecnam P2006T - Emergency Checklists",
+    "checklist_description" : "P2006T Emergency Procedures, Memory Items\n\n - A demostration checklist, do NOT use for flight training\n - Use as a template for your own checklists\n - The checklist is WIP, many critical procedures to be added",
+    "sections": [
+        {
+            "name": "Unintentional Spin Recovery",
+            "section_description" : "Technique of spin recoveries is based on the best available\ninformation. Spin recovery demonstration nor test not required by\nregulation.",
+            "checklist_steps": [
+                {"text": "THROTTLES - Both idle"},
+                {"text": "RUDDER - Fully against rotation until it stops"},
+                {"text": "STICK - Release pull"},
+                {"text": "STICK - Fully push if nose does not descend","comment": "Do only when A/C under control"},
+                {"text": "AILERONS - Centralize"},
+                {"text": "RUDDER - Neutral when rotation stops"},
+                {"text": "STICK - Slowly pull to recovery from descending"
+                }
+            ]
+        },
+        {
+            "name": "Landing Without Engine Power",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "ENGINES - Both Feathered"},
+                {"text": "SPEED - 90 KIAS"},
+                {"text": "FLAPS - Extend as needed"},
+                {"text": "LANDING GEAR - Extend","comment": "To reduce landing gear extension time, evaluate use of emergency\ncontrol system which reduces the time for 8 sec"},
+                {"text": "Select emergency landing field"},
+                {"text": "SAFETY BELTS - Fasten"},
+                {"text": "FUEL SELECTORS - OFF"},
+                {"text": "FUEL PUMPS - OFF"},
+                {"text": "MAGNETOS - OFF"},
+                {"text": "MASTER SWITCHES - All OFF"
+                }
+            ]
+        },
+        {
+            "name": "Engine Fire During Take Off Run - Before rotation",
+            "section_description" : "--- Memorize ---",
+            "checklist_steps": [
+                {"text": "THROTTLES - Both idle"},
+                {"text": "RUDDER - Keep heading control"},
+                {"text": "BRAKES - As required"},
+                {"text": "MAGNETOS - OFF","comment": "Do only when A/C under control"},
+                {"text": "CABIN HEAT AND DEFROST - OFF"},
+                {"text": "FUEL SELECTORS - OFF"},
+                {"text": "FUEL PUMPS - OFF"},
+                {"text": "MASTER SWITCH - OFF","comment": "Do only when A/C under control"},
+                {"text": "PARKING BRAKE - Engage"},
+                {"text": "Evacuate Aircraft","comment": "After propellers stop, leave the aircraft on the side without fire"
+                }
+            ]
+        },
+        {
+            "name": "Engine Fire During Take Off Run - After nose landing gear up",
+            "section_description" : "If remaining lenght of RWY does not allow abort take off, consider\nif the performance during climb with one engine will\nbe at least 300 ft/min. Identify affected\nengine, apply following procedures",
+            "checklist_steps": [
+                {"text": "OPERATING ENGINE THROTTLE - Full"},
+                {"text": "CONTROL AIRCRAFT - Heading + stabilized climb"},
+                {"text": "SPEED - Over 62 KIAS"},
+                {"text": "FIRE AFFECTED ENGINE PROPELLER - FEATHER"},
+                {"text": "LANDING GEAR - RETRACT"},
+                {"text": "FUEL SELECTOR - OFF","comment": "This and the rest, do at safe altitude"},
+                {"text": "MAGNETOS - OFF"},
+                {"text": "CABIN HEAT AND DEFROST - OFF"},
+                {"text": "FUEL PUMP - OFF"},
+                {"text": "FIELD - OFF"},
+                {"text": "Land","comment": "Land ASAP applying one engine inoperative landing procedure"
+                }
+            ]
+        },        
+        {
+            "name": "Engine Fire - In flight",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "CABIN HEAT AND DEFROST - OFF"},
+                {"text": "CONTROL AIRCRAFT - Keep Heading"},
+                {"text": "FUEL SELECTOR - OFF"},
+                {"text": "THROTTLE - Full"},
+                {"text": "PROPELLER - Feathering"},
+                {"text": "MAGNETOS - OFF"},
+                {"text": "FUEL PUMP - OFF"},
+                {"text": "FIELD - OFF"},
+                {"text": "CABIN VENTILATION - Open"},
+                {"text": "Land","comment": "Land ASAP applying one engine inoperative landing procedure"
+                }
+            ]
+        },        
+        {
+            "name": "Electrical Smoke in Cabin on the Ground",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "MASTER SWITCHES - All OFF"},
+                {"text": "CABIN HEAT AND DEFROST - OFF"},
+                {"text": "THROTTLES - BOTH IDLE"},
+                {"text": "MAGNETOS - OFF"},
+                {"text": "FUEL SELECTORS - OFF"},
+                {"text": "After propeller stop, evacuate aircraft"
+                }
+            ]
+        },        
+        {
+            "name": "Electrical Smoke in Cabin During Flight",
+            "section_description" : "During night flight immediately switch ON „Emergency lights“ of cabin and\nif requiredalso EMERG. HORIZON",
+            "checklist_steps": [
+                {"text": "LH + RH FIELD - OFF"},
+                {"text": "LH + RH CROSS BUS - OFF"},
+                {"text": "Verify the cause of smoke"},
+                {"text": "Gain VMC conditions as soon as possible"},
+                {"text": "MASTER SWITCH - OFF","comment": "If MASTER SWITCH is OFF, consider that flaps and landing gear require\nelectrical supply for normal operation."},
+                {"text": "RH FIELD - ON"},
+                {"text": "Verify the cause of smoke"},
+                {"text": "LH FIELD - ON"},
+                {"text": "LH + RH FIELD - OFF","comment": "If smoke still arises"},
+                {"text": "Use fire extinguisher towards base of flames","comment": "In case of fire"},
+                {"text": "After extinguishing the fire open cabin ventilation","comment": "In case of fire"},
+                {"text": "Land as soon as practical and evacuate aircraft","comment": "In case of fire"
+                }
+            ]
+        },        
+        {
+            "name": "Landing Without Brakes",
+            "section_description" : "",
+            "checklist_steps": [
+                {"text": "Select suitable AD with sufficient RWY length or land gear up"},
+                {"text": "SAFETY BELTS - Fasten"},
+                {"text": "FUEL SELECTORS - OFF"},
+                {"text": "FUEL PUMPS - OFF"},
+                {"text": "MAGNETOS - OFF"},
+                {"text": "MASTER SWITCHES - All OFF"
+                }
+            ]
+        }
+    ]
+}
