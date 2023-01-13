@@ -114,12 +114,12 @@ fn default_string() -> String {
 
 pub fn load_checklists() -> Vec<Checklist> {
     let path = Path::new(AppConstants::CHECKLIST_ARCHIVE_LOCATION);
-    let checklist_paths = fs::read_dir(path);
+    println!("{}", fs::read_dir(path).unwrap_err());
+    let checklist_paths = fs::read_dir(path).unwrap();
 
     let mut checklists: Vec<Checklist> = Vec::new();
 
     checklist_paths
-        .unwrap()
         .for_each(|x| checklists.push(Checklist::load_checklist(x.unwrap().path())));
 
     let checklist_count = checklists.clone().into_iter().count() as i32;

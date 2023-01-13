@@ -53,21 +53,26 @@ impl eframe::App for EguiApp {
 
                         ui.collapsing("Checklist Details", |ui| {
                             let vertical_scrollable = egui::ScrollArea::both();
-                            vertical_scrollable.enable_scrolling(true)
-                            .max_height(300.0)
-                            .show(ui, |ui| {
-                                ui.vertical(|ui|{
-                                ui.label(self.selected_checklist.checklist_description.to_owned());
+                            vertical_scrollable
+                                .enable_scrolling(true)
+                                .max_height(300.0)
+                                .show(ui, |ui| {
+                                    ui.vertical(|ui| {
+                                        ui.label(
+                                            self.selected_checklist
+                                                .checklist_description
+                                                .to_owned(),
+                                        );
 
-                                ui.label("\nChecklist sections:");
-                                for checklist_section in &self.selected_checklist.sections {
-                                    ui.label(format!(
-                                        "{}. {}",
-                                        checklist_section.order, checklist_section.name
-                                    ));
-                                }
-                            });
-                            });
+                                        ui.label("\nChecklist sections:");
+                                        for checklist_section in &self.selected_checklist.sections {
+                                            ui.label(format!(
+                                                "{}. {}",
+                                                checklist_section.order, checklist_section.name
+                                            ));
+                                        }
+                                    });
+                                });
                         });
 
                         ui.separator();

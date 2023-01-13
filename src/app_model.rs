@@ -1,4 +1,4 @@
-use crate::data_model::{self, Checklist, StepResult, ChecklistStep};
+use crate::data_model::{self, Checklist, ChecklistStep, StepResult};
 
 #[derive(Clone)]
 pub struct ChecklistPosition {
@@ -17,7 +17,7 @@ pub struct EguiApp {
 }
 
 impl EguiApp {
-    pub fn default() -> Self {
+    pub fn default(cc: &eframe::CreationContext<'_>) -> Self {
         Self {
             is_license_info_shown: false,
             checklists: data_model::load_checklists(),
@@ -52,8 +52,9 @@ impl EguiApp {
     }
 
     pub fn set_current_checklist_step_result(&mut self, result: StepResult) {
-        self.selected_checklist.sections[&self.checklist_position.section - 1]
-                    .checklist_steps[&self.checklist_position.step - 1].result = result;
+        self.selected_checklist.sections[&self.checklist_position.section - 1].checklist_steps
+            [&self.checklist_position.step - 1]
+            .result = result;
     }
 
     pub fn advance_checklist_step(&mut self, skip_step: bool) {
